@@ -1,0 +1,27 @@
+{
+  "name": "cfn-ha-fast",
+  "version": "1.0.0",
+  "description": "CloudFormation template for HA Fastify app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theRemix/CFN-HA-Fast.git"
+  },
+  "keywords": [
+    "cloudformation",
+    "fastify",
+    "demo"
+  ],
+  "author": "Jon Borgonia <jon@gomagames.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theRemix/CFN-HA-Fast/issues"
+  },
+  "homepage": "https://github.com/theRemix/CFN-HA-Fast#readme",
+  "dependencies": {
+    "fastify": "^1.9.0"
+  }
+}
