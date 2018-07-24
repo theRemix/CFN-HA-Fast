@@ -5,9 +5,13 @@ const {
   AWS_REGION
 } = process.env;
 
-fastify.get('/', async (request, reply) => ({
-  AWS_REGION
-}))
+fastify.route({
+    method: ['GET', 'HEAD'],
+    url: '/',
+    handler: async (request, reply) => ({
+      AWS_REGION
+    })
+})
 
 const start = async () => {
   try {
